@@ -1,0 +1,1 @@
+config.disableDeepLinking=true;

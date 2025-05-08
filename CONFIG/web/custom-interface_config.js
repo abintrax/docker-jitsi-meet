@@ -1,0 +1,10 @@
+interfaceConfig.APP_NAME='Abintrax Meet';
+interfaceConfig.JITSI_WATERMARK_LINK='https://abintrax.com';
+interfaceConfig.PROVIDER_NAME='Abintrax';
+interfaceConfig.SUPPORT_URL='https://abintrax.com';
+interfaceConfig.SHOW_JITSI_WATERMARK=false;
+interfaceConfig.SHOW_WATERMARK_FOR_GUESTS=false;
+interfaceConfig.SHOW_BRAND_WATERMARK=false;
+interfaceConfig.DEFAULT_LOGO_URL='';
+interfaceConfig.BRAND_WATERMARK_LINK='';
+interfaceConfig.JITSI_WATERMARK_LINK='';
