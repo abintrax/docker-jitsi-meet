@@ -1,3 +1,17 @@
+# 🧩 Custom Docker Jitsi Meet Fork
+
+This repository is a customized fork of [jitsi/docker-jitsi-meet](https://github.com/jitsi/docker-jitsi-meet), enhanced with support for additional Prosody plugins to enable advanced **token-based access control**.
+
+## 🔧 Included Custom Prosody Plugins
+
+This fork integrates the following plugins for JWT-based room moderation and access control:
+
+- [`token_moderation_plugin`](https://github.com/nvonahsen/jitsi-token-moderation-plugin): Enables moderator role assignment based on JWT claims.
+- [`token_lobby_ondemand`](https://github.com/jitsi-contrib/prosody-plugins): Allows lobby mode to be enabled dynamically using token payloads.
+- [`token_affiliation`](https://github.com/jitsi-contrib/prosody-plugins): Dynamically sets room affiliations (e.g., owner, member, outcast) via JWT.
+
+These plugins provide fine-grained control over participant roles, room moderation, and lobby behavior, making them ideal for deployments that require **secure and flexible governance** of video meetings.
+
 # Jitsi Meet Docker Installation Guide
 
 This guide explains how to quickly set up **Jitsi Meet** using Docker and Docker Compose.
