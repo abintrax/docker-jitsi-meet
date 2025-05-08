@@ -82,7 +82,11 @@ You can customize configurations for each component by editing the files within 
 
 > **SSL Certificates:** By default, the `CONFIG/web/keys` directory contains wildcard SSL certificates for the `*.abintrax.com` domain.  
 > These should be kept as-is if you're using any `abintrax.com` subdomain (e.g., `meet.abintrax.com`).  
-> If you're using a custom domain, you must replace these certificates with your own `.crt` and `.key` files.
+
+> **Note:** If you have set a custom `PUBLIC_URL` in your `.env` file, make sure to place your SSL certificates in `CONFIG/web/keys/` as follows:
+>
+> - The certificate file should be named: `your_domain.crt`
+> - The private key file should be named: `your_domain.key`
 
 ### 7. Start the Services
 
